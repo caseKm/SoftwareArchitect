@@ -1,7 +1,7 @@
-## Contents
-- [What is a Software Architect?](#what-is-a-software-architect)
-- [Levels of Architecture](#levels-of-architecture)
-- [Typical Activities](#typical-activities)
+## 目次
+- [ソフトウェアアーキテクトとは?](#ソフトウェアアーキテクトとは)
+- [アーキテクチャのレベル](#アーキテクチャのレベル)
+- [典型的な業務内容](#典型的な業務内容)
 - [Important Skills](#important-skills)
   - [(1) Design](#1-design)
   - [(2) Decide](#2-decide)
@@ -17,38 +17,36 @@
 - [Types of Solution Architects](#types-of-solution-architects)
 - [Suggested Books](#suggested-books)
 
-# What is a Software Architect?
-* A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
+# ソフトウェアアーキテクトとは?
+* ソフトウェアアーキテクトは、高度な設計の選択を行い、ソフトウェアのコーディング標準、ツール、プラットフォームなどの技術標準を決定するソフトウェアの専門家である。
 _(Source: Wikipedia: Software Architect)_
-* Software architecture is the fundamental organization of a system, represented by its components, their relationships to each other and to the environment, and the principles that determine the design and evolution of the system.
+* ソフトウェアアーキテクチャとは、システムの基本的な構成であり、その要素、要素間および環境との関係、システムの設計と進化を決定する原則によって表現される。
 _(Source: Handbook of Software Architecture)_
 
-# Levels of Architecture
-Architecture can be done on several “levels” of abstractness. The level influences the importance of necessary skills. As there are many possible categorizations possible my favorite segmentation includes these 3 levels:
-* **Application Level**: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication usually within one development team.
-* **Solution Level**: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication between multiple development teams.
-* **Enterprise Level**: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication across the organization. See [Link](https://github.com/justinamiller/EnterpriseArchitecture) to learn more.
+# アーキテクチャのレベル
+アーキテクチャはいくつもの抽象度の「レベル」に適用される。必要なスキルの重要性はレベルに応じて変わる。多くの分け方が考えられるが、私は次の3つのレベルに分けるのが好きだ:
+* **アプリケーションレベル**: アーキテクチャの最下層。1つのアプリケーションに注目する。詳細で低次の設計。通常は1つの開発チーム内の意思疎通。
+* **ソリューションレベル**: アーキテクチャの中間層。ビジネス要求を満たす1つ以上のアプリケーションに注目する。低次の設計を主とするが、高次の設計を含む。複数の開発チーム間の意思疎通。
+* **事業レベル**: アーキテクチャの最上段。複数のソリューションに注目する。高次で抽象的な設計で、ソリューション設計者やアプリケーション設計者によって詳細化される必要がある。組織横断の意思疎通。詳細は[Link](https://github.com/justinamiller/EnterpriseArchitecture)。
 
-Sometimes architects are also seen as “glue” between different stakeholders. Three examples:
+また、時としてアーキテクトは異なるステークホルダーをとりもつ「調整役」でもある。3つの例:
+* **水平方向**: ビジネスと開発者、または開発チーム間の橋渡し役。
+* **垂直方向**: 開発者と管理職の橋渡し役。
+* **技術**: 異なる技術間の、または技術とアプリケーションのインテグレーション。
 
-* **Horizontal**: Bridge communication between business and developers or different development teams.
-* **Vertical**: Bridge communication between developers and managers.
-* **Technology**: Integrate different technologies or applications with each other
+# 典型的な業務内容
+アーキテクトが必要とするスキルを理解するために、典型的な業務内容を理解する必要がある。私が思う最も重要な業務内容は次のとおりだ:
+* 開発技術・プラットフォームの定義・決定
+* 開発基準の定義、例えばコーディング基準、ツール、レビュープロセス、テスト方法など
+* ビジネス要求の特定と理解のサポート
+* システムの設計と要求に基づく決定
+* アーキテクチャに関わる定義、設計、決定の文書化と意思疎通
+* アーキテクチャとコードのチェックとレビュー、例えば定義されたパターンとコーディング基準が適切に実装されているかのチェック
+* 他のアーキテクトとステークホルダーとの協力
+* 開発者のコーチングとコンサルティング
+* 高次の設計を低次の設計へと詳細化と洗練
 
-# Typical Activities
-To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:
-
-* Define and decide development technology and platform
-* Define development standards, e.g., coding standards, tools, review processes, test approach, etc.
-* Support identifying and understanding business requirements
-* Design systems and take decisions based on requirements
-* Document and communicate architectural definitions, design and decisions
-* Check and review architecture and code, e.g., check if defined patterns and coding standards are implemented properly
-* Collaborate with other architects and stakeholders
-* Coach and consult developers
-* Detail out and refine higher level design into lower level design
-
-   _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
+   _注: アーキテクチャは（アジャイルのSW開発に適用される場合は特に）継続的な活動である。そのため、これらの業務は繰り返しおこなわれる。_
 
 # Important Skills
 To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:
